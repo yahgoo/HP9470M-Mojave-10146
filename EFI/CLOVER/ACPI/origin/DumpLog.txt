@@ -1,0 +1,67 @@
+62:069  36:086  Found UEFI Acpi 2.0 RSDP at B9FFE014
+62:069  0:000  Saving ACPI tables from RSDP B9FFE014 to EFI\CLOVER\ACPI\origin ...
+62:069  0:000   B9FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+62:127  0:057    (Xsdt: B9FFE120, Rsdt: B9FFE0AC)
+62:127  0:000    B9FFE120: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 140 -> XSDT.aml
+62:167  0:040    B9FFE0AC: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 88 -> RSDT.aml
+62:209  0:041    Tables in Xsdt: 13
+62:209  0:000    0. B9FFC000: 'FACP', '18DF', Rev: 5, Len: 268 -> FACP.aml
+62:251  0:042        (Dsdt: B9FD3000, Facs: B9C32000, XDsdt: B9FD3000, XFacs: B9C32000)
+62:251  0:000        B9FD3000: 'DSDT', '18DF', Rev: 2, Len: 144008 -> DSDT.aml
+62:324  0:072        B9C32000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+62:380  0:056    1. B9FFB000: 'HPET', '18DF', Rev: 1, Len: 56 -> HPET.aml
+62:410  0:029    2. B9FFA000: 'APIC', '18DF', Rev: 1, Len: 188 -> APIC.aml
+62:445  0:035    3. B9FF9000: 'MCFG', '18DF', Rev: 1, Len: 60 -> MCFG.aml
+62:482  0:036    4. B9FF7000: 'TCPA', '18DF', Rev: 2, Len: 50 -> TCPA.aml
+62:524  0:042    5. B9FD0000: 'SSDT', 'SataAhci', Rev: 1, Len: 714 -> SSDT-0-SataAhci.aml
+62:543  0:019    6. B9FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162 -> SSDT-1-PtidDevc.aml
+62:563  0:019    7. B9FCE000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374 -> SLIC.aml
+62:599  0:036    8. B9FCC000: 'FPDT', '18DF', Rev: 1, Len: 68 -> FPDT.aml
+62:628  0:028    9. B9FCB000: 'BGRT', '18DF', Rev: 0, Len: 56 -> BGRT.aml
+62:657  0:029    10. B9FCA000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2486 -> SSDT-2-Cpu0Ist.aml
+62:694  0:037    11. B9FC9000: 'SSDT', 'CpuPm', Rev: 1, Len: 2878 -> SSDT-3-CpuPm.aml (Found hidden SSDT 4 pcs)
+62:719  0:025        * B4E64018: '', 'UseDesig', Rev: 152, Len: 0  01 00 00 00 00 00 00 00 98 40 E6 B4 00 00 00 00 
+62:719  0:000        * B9C31A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 7F 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x3_0-ApIst.aml
+62:739  0:019        * B9BE4018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2145  53 53 44 54 61 08 00 00 01 68 50 6D 52 65 66 00 Internal length = 2145 -> SSDT-x3_1-Cpu0Cst.aml
+62:757  0:018        * B9BE3D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F5 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_2-ApCst.aml
+62:775  0:017  
+62:775  0:000    12. B9FF8000: 'ASF!', '18DF', Rev: 32, Len: 165 -> ASF!.aml
+62:805  0:030    Tables in Rsdt: 13
+62:805  0:000    0. B9FFC000: 'FACP', '18DF', Rev: 5, Len: 268
+62:805  0:000        (Dsdt: B9FD3000, Facs: B9C32000, XDsdt: B9FD3000, XFacs: B9C32000)
+62:805  0:000        B9FD3000: 'DSDT', '18DF', Rev: 2, Len: 144008
+62:808  0:002        B9C32000: 'FACS', Ver: 1, Len: 64
+62:808  0:000    1. B9FFB000: 'HPET', '18DF', Rev: 1, Len: 56
+62:808  0:000    2. B9FFA000: 'APIC', '18DF', Rev: 1, Len: 188
+62:808  0:000    3. B9FF9000: 'MCFG', '18DF', Rev: 1, Len: 60
+62:808  0:000    4. B9FF7000: 'TCPA', '18DF', Rev: 2, Len: 50
+62:808  0:000    5. B9FD0000: 'SSDT', 'SataAhci', Rev: 1, Len: 714
+62:808  0:000    6. B9FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+62:808  0:000    7. B9FCE000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+62:808  0:000    8. B9FCC000: 'FPDT', '18DF', Rev: 1, Len: 68
+62:808  0:000    9. B9FCB000: 'BGRT', '18DF', Rev: 0, Len: 56
+62:808  0:000    10. B9FCA000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2486
+62:808  0:000    11. B9FC9000: 'SSDT', 'CpuPm', Rev: 1, Len: 2878
+62:808  0:000    12. B9FF8000: 'ASF!', '18DF', Rev: 32, Len: 165
+62:808  0:000  Found UEFI Acpi 1.0 RSDP at B9FFE000
+62:808  0:000  Printing ACPI tables from RSDP B9FFE000 ...
+62:808  0:000   B9FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+62:808  0:000    (Rsdt: B9FFE038)
+62:808  0:000    B9FFE038: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 88
+62:808  0:000    Tables in Rsdt: 13
+62:808  0:000    0. B9FFD000: 'FACP', '18DF', Rev: 1, Len: 116
+62:808  0:000        (Dsdt: B9FD3000, Facs: B9C32000)
+62:808  0:000        B9FD3000: 'DSDT', '18DF', Rev: 2, Len: 144008
+62:810  0:002        B9C32000: 'FACS', Ver: 1, Len: 64
+62:810  0:000    1. B9FFB000: 'HPET', '18DF', Rev: 1, Len: 56
+62:810  0:000    2. B9FFA000: 'APIC', '18DF', Rev: 1, Len: 188
+62:810  0:000    3. B9FF9000: 'MCFG', '18DF', Rev: 1, Len: 60
+62:810  0:000    4. B9FF7000: 'TCPA', '18DF', Rev: 2, Len: 50
+62:810  0:000    5. B9FD0000: 'SSDT', 'SataAhci', Rev: 1, Len: 714
+62:810  0:000    6. B9FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+62:810  0:000    7. B9FCE000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+62:810  0:000    8. B9FCC000: 'FPDT', '18DF', Rev: 1, Len: 68
+62:810  0:000    9. B9FCB000: 'BGRT', '18DF', Rev: 0, Len: 56
+62:810  0:000    10. B9FCA000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2486
+62:810  0:000    11. B9FC9000: 'SSDT', 'CpuPm', Rev: 1, Len: 2878
+62:810  0:000    12. B9FF8000: 'ASF!', '18DF', Rev: 32, Len: 165
